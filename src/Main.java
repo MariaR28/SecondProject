@@ -4,10 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int amount = 250_123;
-        int x = 20;
+        int ticketExpenditure = 100_000;
+        int everyTwentyRubles = 20;
 
-        int bonus = amount / x;
+        int bonus = ticketExpenditure / everyTwentyRubles;
 
         System.out.println("Количество начисленных миль: " + bonus);
 
